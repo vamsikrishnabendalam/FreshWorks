@@ -1,0 +1,9 @@
+open CRD.py file in python IDLE Shell 
+step 1)in above options File -> Open -> CRD.py 
+step 2)CRD.py opens.run file by pressing F5
+Accessing CRD
+>>> import CRD as i                # imports CRD into i variable
+>>> i.create("vamsi",13)           # Creates Dictionary
+>>> i.read("vamsi")                # Reads   Dictionary
+>>> i.delete("vamsi")              # Deletes Dictionary
+>>> i.create("Krishna",2000,60)    # Creates Dictionary with certain time period (1=1second)
